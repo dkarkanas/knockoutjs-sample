@@ -1,0 +1,26 @@
+<html>
+
+<body>
+    <h1>Edit Page</h1>    
+    <a href="index.html">Index Page</a>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+
+<script src="main.js"></script>
+<script src="helpers.js"></script>
+<script src="viewmodels/bidders.viewmodel.js"></script>
+<script src="viewmodels/bidder.viewmodel.js"></script>
+<script src="models/bidder.model.js"></script>
+
+<script>
+    (function () {
+
+    }(Project));
+
+    var viewmodel = new Project.viewModels.bidderViewModel();
+    ko.applyBindings(viewmodel);
+</script>
+
+</html>
